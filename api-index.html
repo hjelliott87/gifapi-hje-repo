@@ -12,6 +12,7 @@
             <label for="gif-animal">Add an animal to Add</label>
             <input type="text" id="gif-animal"><br>
             <input id="add-animal" type="submit" value="Add an animal to Add">
+            <div id="search"></div>
         </form>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
@@ -40,7 +41,7 @@
             gifDiv.prepend(p);
             gifDiv.prepend(img);
 
-            $("#animal-view").prepend(gifDiv);
+            $("#search").prepend(gifDiv);
           }
         });
    
